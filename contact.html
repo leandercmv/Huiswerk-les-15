@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl-nl">
+  <head>
+    <title>Contact pagina</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="contact pagina" />
+    <meta name="author" content="Leander Dieleman" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mijncv.html">Curriculum Vitae</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+    <form method="post" action="bewaarInformatie.php">
+      <table>
+        <tr>
+          <td><b>Voornaam</b></td>
+          <td><input name="voornaam" type="text" /></td>
+        </tr>
+        <tr>
+          <td><b>Achternaam</b></td>
+          <td><input name="achternaam" type="text" /><br /></td>
+        </tr>
+        <tr>
+          <td><b>Email Adres</b></td>
+          <td><input name="email adres" type="email" /><br /><br /></td>
+        </tr>
+        <tr>
+          <td>
+            <b
+              >Schrijf hier kort uw<br />
+              vraag of opmerking</b
+            >
+          </td>
+          <td>
+            <textarea name="bericht" maxlength="400"></textarea><br /><br />
+          </td>
+        </tr>
+      </table>
+      <button><strong>Verzend</strong></button>
+    </form>
+    <footer>
+      <p>Leander Dieleman &copy; 2024 Alle rechten voorbehouden.</p>
+    </footer>
+  </body>
+</html>
